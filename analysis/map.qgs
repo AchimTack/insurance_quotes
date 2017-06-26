@@ -709,7 +709,7 @@
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
-      <blendMode>6</blendMode>
+      <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
       <displayfield>name</displayfield>
