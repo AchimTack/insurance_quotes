@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.18.4">
+<qgis projectname="" version="2.16.3">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -78,26 +78,26 @@
         <ymax>20037508.33999999985098839</ymax>
       </extent>
       <id>Stamen_Toner_Lite_OSM20170625190035690</id>
-      <datasource>&lt;GDAL_WMS>
-  &lt;Service name="TMS">
-    &lt;ServerUrl>http://tile.stamen.com/toner-lite/${z}/${x}/${y}.png&lt;/ServerUrl>
-  &lt;/Service>
-  &lt;DataWindow>
-    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>
-    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>
-    &lt;LowerRightX>20037508.34&lt;/LowerRightX>
-    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>
-    &lt;TileLevel>18&lt;/TileLevel>
-    &lt;TileCountX>1&lt;/TileCountX>
-    &lt;TileCountY>1&lt;/TileCountY>
-    &lt;YOrigin>top&lt;/YOrigin>
-  &lt;/DataWindow>
-  &lt;Projection>EPSG:3857&lt;/Projection>
-  &lt;BlockSizeX>256&lt;/BlockSizeX>
-  &lt;BlockSizeY>256&lt;/BlockSizeY>
-  &lt;BandsCount>3&lt;/BandsCount>
-  &lt;Cache />
-&lt;/GDAL_WMS>
+      <datasource>&lt;GDAL_WMS>&#xd;
+  &lt;Service name="TMS">&#xd;
+    &lt;ServerUrl>http://tile.stamen.com/toner-lite/${z}/${x}/${y}.png&lt;/ServerUrl>&#xd;
+  &lt;/Service>&#xd;
+  &lt;DataWindow>&#xd;
+    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xd;
+    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xd;
+    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xd;
+    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xd;
+    &lt;TileLevel>18&lt;/TileLevel>&#xd;
+    &lt;TileCountX>1&lt;/TileCountX>&#xd;
+    &lt;TileCountY>1&lt;/TileCountY>&#xd;
+    &lt;YOrigin>top&lt;/YOrigin>&#xd;
+  &lt;/DataWindow>&#xd;
+  &lt;Projection>EPSG:3857&lt;/Projection>&#xd;
+  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xd;
+  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xd;
+  &lt;BandsCount>3&lt;/BandsCount>&#xd;
+  &lt;Cache />&#xd;
+&lt;/GDAL_WMS>&#xd;
 </datasource>
       <keywordList>
         <value></value>
@@ -182,12 +182,6 @@
         </edittype>
       </edittypes>
       <annotationform>.</annotationform>
-      <aliases>
-        <alias field="field_1" index="0" name=""/>
-        <alias field="field_2" index="1" name=""/>
-        <alias field="field_3" index="2" name=""/>
-        <alias field="field_4" index="3" name=""/>
-      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -212,14 +206,8 @@
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
-      <defaults>
-        <default field="field_1" expression=""/>
-        <default field="field_2" expression=""/>
-        <default field="field_3" expression=""/>
-        <default field="field_4" expression=""/>
-      </defaults>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>5.86631999999999998</xmin>
         <ymin>47.27011000000000251</ymin>
@@ -300,7 +288,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="215,25,28,255"/>
+              <prop k="color" v="44,123,182,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -315,7 +303,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="226,64,46,255"/>
+              <prop k="color" v="78,148,196,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -330,7 +318,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="199,230,219,255"/>
+              <prop k="color" v="254,201,128,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -345,7 +333,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="11">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="177,220,231,255"/>
+              <prop k="color" v="254,180,103,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -360,7 +348,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="146,198,223,255"/>
+              <prop k="color" v="246,144,83,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -375,7 +363,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="112,173,210,255"/>
+              <prop k="color" v="236,104,65,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -390,7 +378,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="78,148,196,255"/>
+              <prop k="color" v="226,64,46,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -405,7 +393,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="44,123,182,255"/>
+              <prop k="color" v="215,25,28,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -420,7 +408,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="236,104,65,255"/>
+              <prop k="color" v="112,173,210,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -435,7 +423,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="246,144,83,255"/>
+              <prop k="color" v="146,198,223,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -450,7 +438,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="254,180,103,255"/>
+              <prop k="color" v="177,220,231,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -465,7 +453,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="254,201,128,255"/>
+              <prop k="color" v="199,230,219,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -480,7 +468,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,223,154,255"/>
+              <prop k="color" v="222,240,208,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -495,7 +483,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,245,179,255"/>
+              <prop k="color" v="244,250,197,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -510,7 +498,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="244,250,197,255"/>
+              <prop k="color" v="255,245,179,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -525,7 +513,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="222,240,208,255"/>
+              <prop k="color" v="255,223,154,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -561,7 +549,7 @@
           <prop k="discrete" v="0"/>
           <prop k="stops" v="0.25;253,174,97,255:0.5;255,255,191,255:0.75;171,217,233,255"/>
         </colorramp>
-        <invertedcolorramp value="0"/>
+        <invertedcolorramp value="1"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -706,12 +694,12 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames"/>
-        <property key="variableValues"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
+      <layerTransparency>20</layerTransparency>
       <displayfield>name</displayfield>
       <label>0</label>
       <labelattributes>
@@ -735,7 +723,7 @@
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="100000">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -765,11 +753,8 @@
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>.</annotationform>
       <aliases>
-        <alias field="plz" index="0" name=""/>
         <alias field="name" index="1" name=""/>
-        <alias field="axa_out - Kopie_field_2" index="2" name=""/>
-        <alias field="axa_out - Kopie_field_3" index="3" name=""/>
-        <alias field="axa_out - Kopie_field_4" index="4" name=""/>
+        <alias field="plz" index="0" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -812,13 +797,6 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
-      <defaults>
-        <default field="plz" expression=""/>
-        <default field="name" expression=""/>
-        <default field="axa_out - Kopie_field_2" expression=""/>
-        <default field="axa_out - Kopie_field_3" expression=""/>
-        <default field="axa_out - Kopie_field_4" expression=""/>
-      </defaults>
     </maplayer>
   </projectlayers>
   <properties>
