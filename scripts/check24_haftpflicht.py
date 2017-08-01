@@ -7,13 +7,13 @@ from bs4 import BeautifulSoup
 import csv
 
 # define File and write header
-file = r"check_24_data.csv"
+file = r"../data/check_24_haftpflicht_data.csv"
 ofile  = open(file, "wb")
 writer = csv.writer(ofile, delimiter='\t', quotechar='"', quoting=csv.QUOTE_NONE, lineterminator = '\n')
 writer.writerow(["plz","provider", "tarif", "price","deckungssumme"])
 ofile.close()
 
-plzlist = ['59558', '21493','45133','37083','10997']
+plzlist = ['59558', '21493','45133','37083','10997','21073', '22089', '20357', '72336','65189','22337','58513','47877']
 
 for plz in plzlist:
     print "########################################################################################"
@@ -43,6 +43,7 @@ for plz in plzlist:
             deckungssumme = product.find_all(class_="c24pv_bullet cp24_bullet_good c24-tooltip-trigger")[0].get_text().split('Mio.')[0].replace('Deckungssumme: ','').strip().encode('utf-8')
 
             values = (plz, provider, tarif, price, deckungssumme)
+            print values
 
             ofile  = open(file, "a")
             writer = csv.writer(ofile, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator = '\n')
